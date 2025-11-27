@@ -1,6 +1,10 @@
 admins = {
     
+    "jigasi@auth.meet.jitsi",
+    
 
+    
+    "jibri@auth.meet.jitsi",
     
 
     "focus@auth.meet.jitsi",

@@ -14,8 +14,8 @@ if (subdomain) {
     subdomain = subdomain.substring(0,subdomain.length-1).split('.').join('_').toLowerCase() + '.';
 }
 config.hosts.muc = 'muc.' + subdomain + 'meet.jitsi';
-config.bosh = 'https://10.10.0.149:8443/' + subdir + 'http-bind';
-config.websocket = 'wss://10.10.0.149:8443/' + subdir + 'xmpp-websocket';
+config.bosh = 'https://10.10.0.149:8444/' + subdir + 'http-bind';
+config.websocket = 'wss://10.10.0.149:8444/' + subdir + 'xmpp-websocket';
 config.bridgeChannel = {
     preferSctp: true
 };
