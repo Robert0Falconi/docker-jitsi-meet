@@ -40,7 +40,7 @@ Jitsi Meet permette di creare riunioni video sicure e di alta qualità senza dip
 
 Se Git non è già installato sul tuo sistema, scaricalo e installalo seguendo le istruzioni ufficiali: [Git Downloads](https://git-scm.com/downloads).
 
-Apri il terminale e digita il comando:
+Apri il terminale VSCode e digita il comando:
 
 ```bash
 git clone https://github.com/Robert0Falconi/docker-jitsi-meet.git
