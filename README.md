@@ -58,6 +58,15 @@ cd jitsi
 docker --version
 ```
 
+### Variabili d'ambiente
+
+Configura le seguenti variabili nel file `.env`:
+
+- `HTTPS_PORT` = 8443
+- `DOCKER_HOST_ADDRESS` = 10.10.0.149 (Cambia con l'IP della tua rete)
+- `PUBLIC_URL` = https://10.10.0.149:8443 (Cambia con l'IP della tua rete)
+
+
 ### Build del progetto con Docker
 
 - Apri Docker Desktop
@@ -90,31 +99,20 @@ docker-compose down
 
 ### Avvio del server Jitsi
 
-- Apri il browser e naviga su: `http://localhost:8000/` (o l'indirizzo configurato)
+- Apri il browser e naviga su: `PUBLIC_URL` (configurato da file .env)
 - Da qui potrai accedere e utilizzare la piattaforma di videoconferenza
 
 ---
 
-## Configurazione
-
-### Variabili d'ambiente
-
-Prima del primo avvio, è consigliabile configurare le seguenti variabili nel file `.env`:
-
-- `JITSI_DOMAIN`: il dominio dove sarà raggiungibile Jitsi
-- `JITSI_HTTP_PORT`: porta HTTP (default: 8000)
-- `JITSI_HTTPS_PORT`: porta HTTPS (default: 8443)
-- `TZ`: timezone del server
-
 ### Certificati SSL
 
-Per l'utilizzo in produzione, è fortemente consigliato configurare certificati SSL validi per garantire connessioni sicure.
+Per l'utilizzo in produzione, è fortemente consigliato configurare certificati SSL validi per garantire connessioni sicure. In mancanza di tali certificati verrà mostrato un avviso su browser di connessione non sicura.
 
 ---
 
 ## Crediti
 
-**Autore:**  
+**Editor:**  
 - [Roberto Falconi](https://github.com/Robert0Falconi)
 
 **Basato su:**  
@@ -122,5 +120,4 @@ Per l'utilizzo in produzione, è fortemente consigliato configurare certificati 
 
 ---
 
-© 2025 – Tutti i diritti riservati.  
-Nessuna parte di questo progetto può essere riprodotta, distribuita o utilizzata per scopi commerciali senza l'autorizzazione scritta dell'autore.
+© 2025 – Tutti i diritti riservati.
