@@ -61,10 +61,10 @@ docker --version
 
 Configura le seguenti variabili nel file `.env`:
 
-- `HTTPS_PORT` = 8443
+- `HTTPS_PORT` = 8443 (Cambia se necessario)
 - `DOCKER_HOST_ADDRESS` = 10.10.0.149 (Cambia con l'IP della tua rete)
 - `PUBLIC_URL` = https://10.10.0.149:8443 (Cambia con l'IP della tua rete)
-
+- `CONFIG`=/Users/Roberto/Desktop/docker-jitsi-meet/config (Percorso della cartella di configurazione)
 
 ### Build del progetto con Docker
 
