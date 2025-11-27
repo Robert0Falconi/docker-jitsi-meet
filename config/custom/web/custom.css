@@ -1,0 +1,7 @@
+.welcome-page {
+    background-image: url('/images/welcome-background.png') !important;
+}
+
+.welcome .welcome-page-button {
+    background: #832019 !important;
+}
