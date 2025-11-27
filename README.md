@@ -87,13 +87,13 @@ A questo punto cambiare "desktop" con "" nel nano e riprovare con il `--build`.
 - Se le immagini sono già presenti e vuoi solo avviare i container:
 
 ```bash
-docker-compose up
+docker compose up
 ```
 
 - Per fermare i container:
 
 ```bash
-docker-compose down
+docker compose down
 ```
 
 ### Avvio del server Jitsi
