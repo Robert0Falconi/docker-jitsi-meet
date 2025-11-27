@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/Robert0Falconi/jitsi/config/custom/web/images/jitsi-logo.png">
+  <a href="https://github.com/Robert0Falconi/jitsi/blob/main/config/custom/web/images/jitsi-logo.png">
     <img src="https://jitsi.org/wp-content/uploads/2018/08/jitsi-logo-blue-grey-text.png" alt="Jitsi" width="200">
   </a>
 </p>
